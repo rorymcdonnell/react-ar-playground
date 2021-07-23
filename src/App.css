@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.latitude {
+  color: teal;
+}
+.longitude {
+  color: teal;
+}

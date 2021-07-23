@@ -5,8 +5,10 @@ const Camera = () => {
   const geolocation = useGeolocation();
   return (
     <div>
-      <h3>LATITUDE: {geolocation.latitude}</h3>
-      <h3>LONGITUDE: {geolocation.longitude}</h3>
+      <div>
+        <h3 className="latitude">LATITUDE: {geolocation.latitude}</h3>
+        <h3 className="longitude">LONGITUDE: {geolocation.longitude}</h3>
+      </div>
       <a-scene
         vr-mode-ui="enabled: false"
         embedded
