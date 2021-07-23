@@ -13,7 +13,7 @@ function App() {
           gltf-model="./assets/magnemite/scene.gltf"
           rotation="0 180 0"
           scale="0.15 0.15 0.15"
-          gps-entity-place="longitude: 53.452161; latitude: -2.264759;"
+          gps-entity-place="longitude: -2.264797; latitude: 53.452136;"
           animation-mixer
         />
         <a-camera gps-camera rotation-reader></a-camera>
