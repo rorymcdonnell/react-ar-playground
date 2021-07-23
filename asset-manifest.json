@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-ar-playground/static/css/main.bbe9a38b.chunk.css",
-    "main.js": "/react-ar-playground/static/js/main.8bb788f7.chunk.js",
-    "main.js.map": "/react-ar-playground/static/js/main.8bb788f7.chunk.js.map",
+    "main.js": "/react-ar-playground/static/js/main.31f56141.chunk.js",
+    "main.js.map": "/react-ar-playground/static/js/main.31f56141.chunk.js.map",
     "runtime-main.js": "/react-ar-playground/static/js/runtime-main.9f5bbb6b.js",
     "runtime-main.js.map": "/react-ar-playground/static/js/runtime-main.9f5bbb6b.js.map",
     "static/js/2.4c675a55.chunk.js": "/react-ar-playground/static/js/2.4c675a55.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.9f5bbb6b.js",
     "static/js/2.4c675a55.chunk.js",
     "static/css/main.bbe9a38b.chunk.css",
-    "static/js/main.8bb788f7.chunk.js"
+    "static/js/main.31f56141.chunk.js"
   ]
 }
