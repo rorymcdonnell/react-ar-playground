@@ -19,8 +19,11 @@ const Camera = () => {
           look-at="[gps-camera]"
           scale="75 75 75"
           // gps-entity-place="latitude: 53.452136>; longitude: -2.264797;"
-          gps-entity-place={`latitude: ${geolocation.latitude}; longitude: ${geolocation.longitude}`}
+          gps-entity-place={`latitude: ${geolocation.latitude}; longitude: ${geolocation.longitude};`}
         ></a-text>
+        {console.log(
+          `latitude: ${geolocation.latitude}; longitude: ${geolocation.longitude}`
+        )}
         <a-camera gps-camera rotation-reader></a-camera>
       </a-scene>
     </div>
