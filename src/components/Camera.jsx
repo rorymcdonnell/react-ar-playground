@@ -1,7 +1,7 @@
 import React from "react";
 import useGeolocation from "react-hook-geolocation";
-import { Scene } from "aframe-react";
-
+import "aframe";
+import { Entity, Scene } from "aframe-react";
 const Camera = () => {
   const geolocation = useGeolocation();
   return (
