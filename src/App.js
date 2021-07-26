@@ -2,7 +2,8 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import ComponentWithGeolocation from "./components/ComponentWithGeolocation";
 import Camera from "./components/Camera";
-import Home from "./components/Home";
+// import Home from "./components/Home";
+import Test from "./components/Test";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Switch>
         <div className="App">
           <Route exact path="/">
-            <Home />
+            <Test />
           </Route>
           <Route exact path="/camera">
             <Camera />
